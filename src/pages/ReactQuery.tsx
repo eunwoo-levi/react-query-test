@@ -10,6 +10,8 @@ export default function ReactQuery() {
     queryKey: ["posts"],
     queryFn: fetchPost,
     retry: 1,
+    staleTime: 10000, // 1분간 api호출 금지
+    gcTime: 3000, // 10초간 캐시가 유지      staleTime < gcTime 이어야 한다.
     select: (data) => {
       return data.data;
     },

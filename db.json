@@ -1,7 +1,9 @@
 {
     "posts": [
       { "id": "1", "title": "a title!", "views": 100 },
-      { "id": "2", "title": "another title", "views": 200 }
+      { "id": "2", "title": "another title2", "views": 200 },
+      { "id": "3", "title": "another title3", "views": 300 },
+      { "id": "4", "title": "another title4", "views": 400 }
     ],
     "comments": [
       { "id": "1", "text": "a comment about post 1", "postId": "1" },
